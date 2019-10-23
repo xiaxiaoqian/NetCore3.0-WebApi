@@ -5,11 +5,16 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XXX.api", "XXX.api\XXX.api.csproj", "{0769A6C5-7CF6-4687-A6E2-8B8A087C1137}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XXX.Models", "XXX.Models\XXX.Models.csproj", "{844675B0-6327-4C64-B4AF-BD3AF75B4CCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XXX.Models", "XXX.Models\XXX.Models.csproj", "{844675B0-6327-4C64-B4AF-BD3AF75B4CCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XXX.Bo", "XXX.Bo\XXX.Bo.csproj", "{A285BD64-51EC-411C-A1E7-B15C6F483C82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XXX.Bo", "XXX.Bo\XXX.Bo.csproj", "{A285BD64-51EC-411C-A1E7-B15C6F483C82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XXX.Common", "XXX.Common\XXX.Common.csproj", "{27C20C66-77C7-4209-918E-40126D77B388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XXX.Common", "XXX.Common\XXX.Common.csproj", "{27C20C66-77C7-4209-918E-40126D77B388}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52B91FAF-132A-48F0-BBA8-8934ECA15852}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
