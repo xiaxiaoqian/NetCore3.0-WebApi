@@ -43,8 +43,11 @@ namespace XXX.api
                 // 启用xml注释
                 s.IncludeXmlComments(xmlPath);
             });
-            services.AddControllers();
+            services.AddControllers(option=> {
+                option.Filters.Add(new MyExceptionFilter());
+            });
             services.AddRouting();
+          
             //services.AddDbContext<Models.XXXEntities.xxxContext>(options =>
             //{
             //    options.UseSqlServer(conn);
@@ -60,8 +63,9 @@ namespace XXX.api
             }
             else
             {
-                app.UseExceptionHandler("api/Error");
+                app.UseExceptionHandler("/error");
             }
+            
             //从appsettings.json获取配置文件
             Common.AppSettings.SetAppSetting(Configuration.GetSection("AppSettings"));
             app.UseRouting();
@@ -85,6 +89,7 @@ namespace XXX.api
                 //     name: "default",
                 //     pattern: "api/{controller}/{action}/{id?}");
                 endpoints.MapControllers();
+                
             });
 
             

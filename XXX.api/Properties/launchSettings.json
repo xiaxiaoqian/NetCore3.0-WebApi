@@ -6,7 +6,8 @@
       "launchUrl": "swagger",
       "applicationUrl": "http://localhost:5000/",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        //Development、Staging 和 Production。如果不设置默认Production 
+        "ASPNETCORE_ENVIRONMENT": "Production"
       }
     }
   }
