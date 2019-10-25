@@ -44,14 +44,10 @@ namespace XXX.api
                 s.IncludeXmlComments(xmlPath);
             });
             services.AddControllers(option=> {
+                //设置异常过滤器
                 option.Filters.Add(new MyExceptionFilter());
             });
             services.AddRouting();
-          
-            //services.AddDbContext<Models.XXXEntities.xxxContext>(options =>
-            //{
-            //    options.UseSqlServer(conn);
-            //});
         }
 
         // 用来配置中间件管道,即如何响应http请求.
