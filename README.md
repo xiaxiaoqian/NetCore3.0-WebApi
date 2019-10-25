@@ -17,3 +17,5 @@ vs2019
 [教程4 读取appsettings.json配置类](https://www.jianshu.com/p/5c28f2f0f9c1)
 
 [教程5 增加接口参数签名验证](https://www.jianshu.com/p/8edf3ec9a4d3)
+
+[教程6 增加接口异常处理模块](https://www.jianshu.com/p/2385c64835fc)
