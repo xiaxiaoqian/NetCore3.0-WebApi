@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XXX.api</name>
+    </assembly>
+    <members>
+        <member name="T:XXX.api.BaseController">
+            <summary>
+            自定义路由模版
+            用于解决swagger文档No operations defined in spec!问题
+            </summary>
+        </member>
+        <member name="T:XXX.api.Controllers.UserController">
+            <summary>
+            用户接口
+            </summary>
+        </member>
+        <member name="M:XXX.api.Controllers.UserController.Login">
+            <summary>
+            测试接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XXX.api.Controllers.UserController.AddUser(XXX.Models.User.AddUserP)">
+            <summary>
+            增加一个用户
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:XXX.api.MyExceptionFilter">
+            <summary>
+            自定义webapi异常处理
+            </summary>
+        </member>
+        <member name="M:XXX.api.MyExceptionFilter.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            发送异常时执行的代码
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:XXX.api.MyExceptionFilter.OnExceptionAsync(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            异步发送异常时执行的代码
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
