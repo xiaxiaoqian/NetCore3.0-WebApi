@@ -1,6 +1,7 @@
 ## WebApi介绍
 
 这是一个适合初学者学习的教程
+![image](https://github.com/xiaxiaoqian/NetCore3.0-WebApi/blob/master/XXX.Common/mm_reward_qrcode_1646372732791.png)
 
 ## 开发工具：
 vs2019 
